@@ -16,9 +16,9 @@ load_dotenv()
 
 bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
 
-bisal_channel = "https://telegram.me/bisal_files"
+bisal_channel = "https://telegram.me/SatyajeetUpdates"
 
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+bisal_grp = "https://t.me/+UeOZhyZRLIdmYmM1"
 
 
 
@@ -38,9 +38,9 @@ class Var(object):
 
     WORKERS = int(getenv('WORKERS', '4'))
 
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002158102453'))
 
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', ''))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002172328535'))
 
     PORT = int(getenv('PORT', '8080'))
 
@@ -54,7 +54,7 @@ class Var(object):
 
     APP_NAME = None
 
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'biisal'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'SatyajeetKumarOfficial'))
 
     if 'DYNO' in environ:
 
