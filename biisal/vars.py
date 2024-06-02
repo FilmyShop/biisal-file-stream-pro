@@ -40,7 +40,7 @@ class Var(object):
 
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002158102453'))
 
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002172328535'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002054249965'))
 
     PORT = int(getenv('PORT', '8080'))
 
@@ -48,7 +48,7 @@ class Var(object):
 
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 
-    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "5397984467").split()]
+    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "6567324192").split()]
 
     NO_PORT = bool(getenv('NO_PORT', False))
 
@@ -86,6 +86,6 @@ class Var(object):
 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
 
-    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1002172328535")).split()))   
+    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1002057914265")).split()))   
 
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @biisal_bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
