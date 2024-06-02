@@ -32,7 +32,7 @@ class Var(object):
 
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
 
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    name = str(getenv('name', 'satyajeetkumarofficial'))
 
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
 
@@ -82,10 +82,10 @@ class Var(object):
 
     DATABASE_URL = str(getenv('DATABASE_URL', ''))
 
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'bisal_files')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'satyajeetupdates')) 
 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
 
-    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
+    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1002172328535")).split()))   
 
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @biisal_bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
